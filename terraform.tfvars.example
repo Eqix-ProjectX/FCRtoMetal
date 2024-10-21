@@ -1,0 +1,27 @@
+metal_metro  = "DA"                                                #<put apppropriate Metal code for Metal>
+metal_vxlan = 1999                                                 #<key in the required VLAN ID for Metal>
+metal_project_id  = "MASMISADIDJASIJDIASDJSAIDJSAIDJASIDJ"         #<Key in your project ID>
+metal_token = "ASSASADSADSADSADSADADSADADSADSADSADSADADSD"         #<key in your Metal Token ID>
+
+metal_connection_name = "Metal-Sample-connection310"
+metal_connection_speed = "50Mbps"
+metal_port_type = "shared_port_vlan"
+emails = test@example.com"
+redundancy_type = "primary"
+
+metal_hostname   = "sample-Metal"
+metal_plan       = "m3.small.x86"
+metal_os = "vyos_1_3"
+metal_billing_cycle  = "hourly"
+
+FCR2Metal_Connectionname = "L2_FCRDA_to_MetalDA123"
+FCR2metal_Speed = 50
+purchase_order_number = "1-assASSAs"                               #<key in your purchase order>
+
+metal_bond_type = "hybrid-bonded"
+
+FCR_Layer3connection_name = "L3_FCRDA_to_MetalDA_FCRside123"
+BGPIP_on_FCR = "192.168.20.1/30"
+Metal_ASN = 65200
+Metal_Layer3connection_name = "L3_FCRDA_to_MetalDA_Metalside1"
+MetalIP_on_FCR = "192.168.20.2"
