@@ -1,4 +1,4 @@
-#to create a metal VLAN ID 
+
 
 provider "equinix" {
 
